@@ -37,3 +37,26 @@ namespace __util {
         return newFactory.state();
     }
 }
+
+namespace util {
+    export class Point {
+        constructor(public x: number, public y: number) {
+        }
+
+        public get left() {
+            return this.x;
+        }
+
+        public get right() {
+            return this.x;
+        }
+
+        public get top() {
+            return this.y;
+        }
+
+        public get bottom() {
+            return this.y;
+        }
+    }
+}
